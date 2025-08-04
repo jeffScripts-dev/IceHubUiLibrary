@@ -2,35 +2,36 @@
 Ice hub Ui library thats Everyone and Finally Created
 
 # Load Library
-Need this to load library or until not works `local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/jeffScripts-dev/jeffScripts-dev/main/IceHubUILibrary"))()`
+Need this to load library or until not works 
+```local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/jeffScripts-dev/jeffScripts-dev/main/IceHubUILibrary"))()```
 
 # Create Window
-`local Window = Library:CreateWindow("IceHub - Brookhaven")`
+```local Window = Library:CreateWindow("IceHub - Brookhaven")```
 
 # Create Tabs
-`local NameTab = Window:CreateTab("Name tab")`
+```local NameTab = Window:CreateTab("Name tab")```
 
 # Sections
-`MainTab:CreateSection("Settings")`
+```MainTab:CreateSection("Settings")```
 
 # Buttons
-`MainTab:CreateButton("Print", function()
+```MainTab:CreateButton("Print", function()
     print("Button Clicked!")
-end)`
+end)```
 
 # Toggles
-`MainTab:CreateToggle("Ativar Modo Turbo", false, function(state)
+```MainTab:CreateToggle("Ativar Modo Turbo", false, function(state)
     print("Modo Turbo:", state)
-end)`
+end)```
 
 # Textbox
-`MainTab:CreateTextbox("Digite seu nome", function(text)
+``'MainTab:CreateTextbox("Digite seu nome", function(text)
     print("Nome digitado:", text)
-end)`
+end)```
 
 # Dropdown
-`MainTab:CreateDropdown("Choose you want", {"1", "2", "Nothing"}, function(option)
+```MainTab:CreateDropdown("Choose you want", {"1", "2", "Nothing"}, function(option)
     print("I Choose:", option)
-end)`
+end)```
 
 I hope Help you to create ur own script
