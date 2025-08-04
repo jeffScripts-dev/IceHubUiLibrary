@@ -21,6 +21,11 @@ local NameTab = Window:CreateTab("Name tab")
 MainTab:CreateSection("Settings")
 ```
 
+## Labels
+```lua
+MainTab:CreateLabel("Welcome to IceHub!")
+```
+
 ## 🔘 Buttons  
 ```lua
 MainTab:CreateButton("Print", function()
