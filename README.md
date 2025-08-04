@@ -2,28 +2,52 @@
 Ice hub Ui library thats Everyone and Finally Created
 
 ## 📥 Load Library  
-`local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/jeffScripts-dev/jeffScripts-dev/main/IceHubUILibrary"))()`
+```lua
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/jeffScripts-dev/jeffScripts-dev/main/IceHubUILibrary"))()
+```
 
 ## 🪟 Create Window  
-`local Window = Library:CreateWindow("IceHub - Brookhaven")`
+```lua
+local Window = Library:CreateWindow("IceHub - Brookhaven")
+```
 
 ## 📁 Create Tabs  
-`local NameTab = Window:CreateTab("Name tab")`
+```lua
+local NameTab = Window:CreateTab("Name tab")
+```
 
 ## 📦 Sections  
-`MainTab:CreateSection("Settings")`
+```lua
+MainTab:CreateSection("Settings")
+```
 
 ## 🔘 Buttons  
-`MainTab:CreateButton("Print", function() print("Button Clicked!") end)`
+```lua
+MainTab:CreateButton("Print", function()
+    print("Button Clicked!")
+end)
+```
 
 ## ✅ Toggles  
-`MainTab:CreateToggle("Ativar Modo Turbo", false, function(state) print("Modo Turbo:", state) end)`
+```lua
+MainTab:CreateToggle("Ativar Modo Turbo", false, function(state)
+    print("Modo Turbo:", state)
+end)
+```
 
 ## 📝 Textbox  
-`MainTab:CreateTextbox("Digite seu nome", function(text) print("Nome digitado:", text) end)`
+```lua
+MainTab:CreateTextbox("Digite seu nome", function(text)
+    print("Nome digitado:", text)
+end)
+```
 
 ## 🔽 Dropdown  
-`MainTab:CreateDropdown("Choose you want", {"1", "2", "Nothing"}, function(option) print("I Choose:", option) end)`
+```lua
+MainTab:CreateDropdown("Choose you want", {"1", "2", "Nothing"}, function(option)
+    print("I Choose:", option)
+end)
+```
 
 ---
 
